@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png">
+  <title>CineFlix</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+  <!--
+    - google font link
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+</head>
+
+<body>
+
+
+
+
+  <!--
+    - main container
+  -->
+  <div class="container">
+
+    <!--
+      - #HEADER SECTION
+    -->
+
+    <header class="">
+      <div class="navbar">
+
+        <!--
+          - menu button for small screen
+        -->
+        <button class="navbar-menu-btn">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+
+        <a href="index.html" class="navbar-brand">
+          <img src="./assets/images/logo.png" alt="">
+        </a>
+
+        <!--
+          - navbar navigation
+        -->
+
+        <nav class="">
+          <ul class="navbar-nav">
+
+            <li> <a href="#" class="navbar-link">Home</a> </li>
+            <li> <a href="#category" class="navbar-link">Category</a> </li>
+            <li> <a href="#live" class="navbar-link  indicator">LIVE</a> </li>
+
+          </ul>
+        </nav>
+
+        <!--
+          - search and sign-in
+        -->
+
+        <div class="navbar-actions">
+
+          <form action="#" class="navbar-form">
+            <input type="text" name="search" placeholder="I'm looking for..." class="navbar-form-search">
+
+            <button class="navbar-form-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <button class="navbar-form-close">
+              <ion-icon name="close-circle-outline"></ion-icon>
+            </button>
+          </form>
+
+
+          <!--
+            - search button for small screen
+          -->
+
+          <button class="navbar-search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <a href="#" class="navbar-signin">
+            <span>Sign in</span>
+            <ion-icon name="log-in-outline"></ion-icon>
+          </a>
+
+        </div>
+
+      </div>
+    </header>
+
+
+
+    <main>
+
+
+ <button id="PRECEDENT" class="Lien_EP"><span class="icône-flèche-cercle-gauche"></span>PRECEDENT</button>
+        <button id="SUIVANT" class="Lien_EP">SUIVANT<span class="icône-flèche-cercle-droite"></span></button>
+
+
+<div>
+<select id="selection_EP">
+      <option value="1">Épisode 1</option>
+      <option value="2">Épisode 2</option>
+      <option value="3">Épisode 3</option>
+      <option value="4">Épisode 4</option>
+      <option value="5">Épisode 5</option>
+      <option value="6">Épisode 6</option>
+      <option value="7">Épisode 7</option>
+      <option value="8">Épisode 8</option>
+      <option value="9">Épisode 9</option>
+      <option value="10">Épisode 10</option>
+      <option value="11">Épisode 11</option>
+      <option value="12">Épisode 12</option>
+      <option value="13">Épisode 13</option>
+      <option value="14">Épisode 14</option>
+      <option value="15">Épisode 15</option>
+      <option value="16">Épisode 16</option>
+      <option value="17">Épisode 17</option>
+      <option value="18">Épisode 18</option>
+      <option value="19">Épisode 19</option>
+      <option value="20">Épisode 20</option>
+      <option value="21">Épisode 21</option>
+      <option value="22">Épisode 22</option>
+      <option value="23">Épisode 23</option>
+      <option value="24">Épisode 24</option>
+      <!-- Ajoutez d'autres épisodes ici -->
+    </select>
+  </div>
+
+  <div>
+    <select id="selection_LECTEUR">
+      <option value="1">Lecteur 1</option>
+      <option value="2">Lecteur 2</option>
+      <option value="3">Lecteur 3</option>
+    </select>
+</div>
+
+
+
+<div id="videoContainer">
+  <iframe id="video_EP" width="790" height="540" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" allowScriptAccess="always" mozallowfullscreen="true" allow="encrypted-media"></iframe>
+</div>
+
+ 
+       
+        <p id="phrase_grise">Un problème sur les vidéos ? Changez de lecteur (sinon consultez <a id="lien_bleu" href="lien_page.html">la page aide</a> ).</p>
+
+     
+
+    </main>
+
+
+
+    <!--
+      - FOOTER SECTION
+    -->
+    <footer>
+
+      <div class="footer-content">
+
+        <div class="footer-brand">
+          <img src="./assets/images/logo.png" alt="" class="footer-logo">
+          <p class="slogan">Movies & TV Shows, Online cinema,
+            Movie database HTML Template.</p>
+
+
+          <div class="social-link">
+
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+
+          </div>
+        </div>
+
+
+        <div class="footer-links">
+          <ul>
+
+            <h4 class="link-heading">CineFlix</h4>
+
+            <li class="link-item"><a href="#">About us</a></li>
+            <li class="link-item"><a href="#">My profile</a></li>
+            <li class="link-item"><a href="#">Pricing plans</a></li>
+            <li class="link-item"><a href="#">Contacts</a></li>
+
+          </ul>
+
+          <ul>
+
+            <h4 class="link-heading">Browse</h4>
+
+            <li class="link-item"><a href="#">Live Tv</a></li>
+            <li class="link-item"><a href="#">Live News</a></li>
+            <li class="link-item"><a href="#">Live Sports</a></li>
+            <li class="link-item"><a href="#">Streaming Library</a></li>
+
+          </ul>
+
+          <ul>
+
+            <li class="link-item"><a href="#">TV Shows</a></li>
+            <li class="link-item"><a href="#">Movies</a></li>
+            <li class="link-item"><a href="#">Kids</a></li>
+            <li class="link-item"><a href="#">Collections</a></li>
+
+          </ul>
+
+          <ul>
+
+            <h4 class="link-heading">Help</h4>
+
+            <li class="link-item"><a href="#">Account & Billing</a></li>
+            <li class="link-item"><a href="#">Plans & Pricing</a></li>
+            <li class="link-item"><a href="#">Supported devices</a></li>
+            <li class="link-item"><a href="#">Accessibility</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-copyright">
+
+        <div class="copyright">
+          <p>&copy; copyright 2021 CineFlix</p>
+        </div>
+
+        <div class="wrapper">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms and conditions</a>
+        </div>
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/main.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
